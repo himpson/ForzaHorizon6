@@ -15,6 +15,8 @@ Maps internal car IDs (e.g. `Car_1006`) to human-readable names and media asset 
   "Car_1006": {
     "mediaName": "FER_FXX_05",
     "name": "2005 Ferrari FXX"
+    "shortName": "2005 Ferrari FXX"
+    "make": "Ferrari"
   }
 }
 ```
@@ -23,6 +25,8 @@ Maps internal car IDs (e.g. `Car_1006`) to human-readable names and media asset 
 |-------|-------------|
 | Key (`Car_XXXX`) | Internal game car ID as reported by SimHub telemetry |
 | `name` | Full display name of the car |
+| `make` | Make of the car |
+| `shortName` | Short display name of the car |
 | `mediaName` | Internal asset/media identifier used by the game |
 
 ### Usage
